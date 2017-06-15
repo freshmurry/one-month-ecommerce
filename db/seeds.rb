@@ -60,8 +60,8 @@ jjhairston = Product.create(
 
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 
-worth_product = Product.create(
-	title: "Worth", 
+worth_saving_product = Product.create(
+	  title: "Worth ", 
     subtitle: "By Anthony Brown & group therAPy", author: "Lawrence Murry", 
     chordz: "50",
     author_image_name: "murry.png", 
@@ -88,7 +88,7 @@ worth_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 salvation_product = Product.create(
-	title: "Hallalujah Salvation and Glory", 
+  	title: "Hallalujah Salvation and Glory", 
     subtitle: " ", 
     chordz: "50",
     author_image_name: "murry.png", 
@@ -115,7 +115,7 @@ salvation_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 Oh_give_thanks_product = Product.create(
-	title: "Oh Give Thanks Unto The Lord", 
+	  title: "Oh Give Thanks Unto The Lord", 
     subtitle: "By ?", 
     chordz: "50",
     author_image_name: "murry.png", 
@@ -142,7 +142,7 @@ Oh_give_thanks_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 the_sun_product = Product.create(
-	title: "The Sun Is Going To Shine", 
+  	title: "The Sun Is Going To Shine", 
     subtitle: "By ?", 
     chordz: "N/A",
     author_image_name: "murry.png", 
@@ -169,7 +169,7 @@ the_sun_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 more_than_anthything_product = Product.create(
-	title: "More Than Anything", 
+	  title: "More Than Anything", 
     subtitle: "By ?", 
     chordz: "50",
     author_image_name: "murry.png", 
@@ -196,7 +196,7 @@ more_than_anthything_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 dont_quit_product = Product.create(
-	title: "Don't Quit", 
+	  title: "Don't Quit", 
     subtitle: "By Smokie Norful", 
     chordz: "50",
     author_image_name: "murry.png", 
