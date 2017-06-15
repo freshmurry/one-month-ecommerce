@@ -1,4 +1,4 @@
-This file should contain all the record creation needed to seed the database with its default values.
+#This file should contain all the record creation needed to seed the database with its default values.
 # The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
 #
 # Examples:
@@ -65,8 +65,6 @@ worth_product = Product.create(
     subtitle: "By Anthony Brown & group therAPy", author: "Lawrence Murry", 
     chordz: "50",
     author_image_name: "murry.png", 
-    # thumbnail_image_name: "product-1.png",
-    # header_image_name: "header-1.png",
     price: "4.99",
     sku: "CHORDZ2", 
     download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
@@ -94,8 +92,6 @@ salvation_product = Product.create(
     subtitle: " ", 
     chordz: "50",
     author_image_name: "murry.png", 
-    # thumbnail_image_name: "product-2.png",
-    # header_image_name: "header-2.png",
     price: "4.99",
     sku: "CHORDZ2", 
     download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
@@ -123,8 +119,6 @@ Oh_give_thanks_product = Product.create(
     subtitle: "By ?", 
     chordz: "50",
     author_image_name: "murry.png", 
-    # thumbnail_image_name: "product-3.png",
-    # header_image_name: "header-3.png",
     price: "4.99",
     sku: "CHORDZ2", 
     download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
@@ -152,8 +146,6 @@ the_sun_product = Product.create(
     subtitle: "By ?", 
     chordz: "N/A",
     author_image_name: "murry.png", 
-    # thumbnail_image_name: "product-4.png",
-    # header_image_name: "header-4.png",
     price: "4.99",
     sku: "CHORDZ2", 
     download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
@@ -181,8 +173,6 @@ more_than_anthything_product = Product.create(
     subtitle: "By ?", 
     chordz: "50",
     author_image_name: "murry.png", 
-    # thumbnail_image_name: "product-5.png",
-    # header_image_name: "header-5.png",
     price: "4.99",
     sku: "CHORDZ2", 
     download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
@@ -210,8 +200,6 @@ dont_quit_product = Product.create(
     subtitle: "By Smokie Norful", 
     chordz: "50",
     author_image_name: "murry.png", 
-    # thumbnail_image_name: "product-6.png",
-    # header_image_name: "header-7.png",
     price: "4.99",
     sku: "CHORDZ2", 
     download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
