@@ -61,7 +61,7 @@ jjhairston = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 
 worth_saving_product = Product.create(
-	  title: "Worth ", 
+	title: "Worth ", 
     subtitle: "By Anthony Brown & group therAPy", author: "Lawrence Murry", 
     chordz: "50",
     author_image_name: "murry.png", 
@@ -88,10 +88,10 @@ worth_saving_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 salvation_product = Product.create(
-  	title: "Hallalujah Salvation and Glory", 
-    subtitle: " ", 
+  	title: "Hallelujah Salvation and Glory", 
+    subtitle: "By N/A ", 
     chordz: "50",
-    author_image_name: "murry.png", 
+    author_image_name: "murry.png",
     price: "4.99",
     sku: "CHORDZ2", 
     download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
@@ -115,14 +115,14 @@ salvation_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 Oh_give_thanks_product = Product.create(
-	  title: "Oh Give Thanks Unto The Lord", 
-    subtitle: "By ?", 
+	title: "Oh Give Thanks Unto The Lord", 
+    subtitle: "By Judith Christie Mcallister", 
     chordz: "50",
     author_image_name: "murry.png", 
     price: "4.99",
     sku: "CHORDZ2", 
     download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
-    details: "You\'ll receive (1) Song Chordz", 
+    details: "You\'ll receive (1) Song Chordz in the Key of C#", 
     description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
 
             <p>In this series, wou will have access to a ton of songs you've always wanted to learn but just never had the time.</p>
@@ -169,7 +169,7 @@ the_sun_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 more_than_anthything_product = Product.create(
-	  title: "More Than Anything", 
+	title: "More Than Anything", 
     subtitle: "By ?", 
     chordz: "50",
     author_image_name: "murry.png", 
@@ -196,7 +196,7 @@ more_than_anthything_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 dont_quit_product = Product.create(
-	  title: "Don't Quit", 
+	title: "Don't Quit", 
     subtitle: "By Smokie Norful", 
     chordz: "50",
     author_image_name: "murry.png", 
