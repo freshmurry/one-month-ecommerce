@@ -8,14 +8,14 @@
 	  
 song_chordz = Product.create(
 	title: "Song Chordz", 
-    subtitle: "Ulimited Access To Song Chordz", author: "Lawrence Murry", 
-    chordz: "Unlimited", 
-    author_image_name: "murry.png", 
-    price: "4.99", 
-    sku: "CHORDZ2", 
-    download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
-    details: "We'll charge you monthly for unlimited access to Song Chordz", 
-    description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
+  subtitle: "Ulimited Access To Song Chordz", author: "Lawrence Murry", 
+  chordz: "Unlimited", 
+  author_image_name: "murry.png", 
+  price: "4.99", 
+  sku: "CHORDZ2", 
+  download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
+  details: "We'll charge you monthly for unlimited access to Song Chordz", 
+  description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
 
             <p>In this series, you\'ll have access to a ton of songs you've always wanted to learn but just never had the time.</p>
             <p><strong>What You'll Receive</strong></p>
@@ -35,14 +35,15 @@ song_chordz = Product.create(
   	
 jjhairston = Product.create(
 	title: "You Deserve It", 
-    subtitle: "By JJ Hairston and Youthful Praise", author: "Lawrence Murry", 
-    chordz: "50", 
-    author_image_name: "murry.png", 
-    price: "4.99",
-    sku: "CHORDZ2", 
-    download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
-    details: "You\'ll receive (1) Song Chordz", 
-    description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
+  subtitle: "By JJ Hairston and Youthful Praise", 
+  author: "Lawrence Murry", 
+  chordz: "50", 
+  author_image_name: "murry.png", 
+  price: "4.99",
+  sku: "CHORDZ2", 
+  download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
+  details: "You\'ll receive (1) Song Chordz", 
+  description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
 
             <p>In this series, you will have access to a ton of songs you've always wanted to learn but just never had the time.</p>
             <p><strong>What You\'ll Receive</strong></p>
@@ -62,14 +63,14 @@ jjhairston = Product.create(
 
 worth_saving_product = Product.create(
 	title: "Worth ", 
-    subtitle: "By Anthony Brown & group therAPy", author: "Lawrence Murry", 
-    chordz: "50",
-    author_image_name: "murry.png", 
-    price: "4.99",
-    sku: "CHORDZ2", 
-    download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
-    details: "You\'ll receive (1) Song Chordz", 
-    description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
+  subtitle: "By Anthony Brown & group therAPy", author: "Lawrence Murry", 
+  chordz: "50",
+  author_image_name: "murry.png", 
+  price: "4.99",
+  sku: "CHORDZ2", 
+  download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
+  details: "You\'ll receive (1) Song Chordz", 
+  description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
 
             <p>In this series, you will have access to a ton of songs you've always wanted to learn but just never had the time.</p>
             <p><strong>What You\'ll Receive</strong></p>
@@ -88,15 +89,15 @@ worth_saving_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 the_sun_product = Product.create(
-  	title: "The Sun Is Going To Shine", 
-    subtitle: "By ?", 
-    chordz: "N/A",
-    author_image_name: "murry.png", 
-    price: "4.99",
-    sku: "CHORDZ2", 
-    download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
-    details: "You\'ll receive (1) Song Chordz", 
-    description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
+	title: "The Sun Is Going To Shine", 
+	subtitle: "By New Direction", 
+  chordz: "N/A",
+  author_image_name: "murry.png", 
+  price: "4.99",
+  sku: "CHORDZ2", 
+  download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
+  details: "You\'ll receive (1) Song Chordz", 
+  description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
 
             <p>In this series, you will have access to a ton of songs you've always wanted to learn but just never had the time.</p>
             <p><strong>What You\'ll Receive</strong></p>
@@ -115,15 +116,15 @@ the_sun_product = Product.create(
 	<p>Follow me on Twitter <a href="https://twitter.com/freshmurry" target="_blank">@freshmurry</a></p>})
 	
 more_than_anthything_product = Product.create(
-	title: "More Than Anything", 
-    subtitle: "By ?", 
-    chordz: "50",
-    author_image_name: "murry.png", 
-    price: "4.99",
-    sku: "CHORDZ2", 
-    download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
-    details: "You\'ll receive (1) Song Chordz", 
-    description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
+  title: "More Than Anything", 
+  subtitle: "By ?", 
+  chordz: "50", 
+  author_image_name: "murry.png", 
+  price: "4.99",
+  sku: "CHORDZ2", 
+  download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
+  details: "You\'ll receive (1) Song Chordz", 
+  description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
 
             <p>In this series, you will have access to a ton of songs you've always wanted to learn but just never had the time.</p>
             <p><strong>What You\'ll Receive</strong></p>
@@ -143,14 +144,14 @@ more_than_anthything_product = Product.create(
 	
 dont_quit_product = Product.create(
 	title: "Don't Quit", 
-    subtitle: "By Smokie Norful", 
-    chordz: "50",
-    author_image_name: "murry.png", 
-    price: "4.99",
-    sku: "CHORDZ2", 
-    download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
-    details: "You\'ll receive (1) Song Chordz", 
-    description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
+  subtitle: "By Smokie Norful", 
+  chordz: "50",
+  author_image_name: "murry.png", 
+  price: "4.99",
+  sku: "CHORDZ2", 
+  download_url: "https://s3.amazonaws.com/one-month-stripe-payments/LawrenceMurryResume.pdf", 
+  details: "You\'ll receive (1) Song Chordz", 
+  description: %{<p>If you are a beginner to intermediate ear-trained keyboard player and are looking for chords to songs, you have come to the right spot.</p>
 
             <p>In this series, you will have access to a ton of songs you've always wanted to learn but just never had the time.</p>
             <p><strong>What You\'ll Receive</strong></p>
