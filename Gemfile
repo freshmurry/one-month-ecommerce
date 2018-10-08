@@ -9,13 +9,7 @@ gem 'rails', '4.2.6'
 # Use sqlite3 as the database for development and test
 gem 'sqlite3', group: [:development, :test]
 
-# Use postgres as the database in production
-gem 'pg', group: :production
-
 gem 'yarn'
-
-# Add 12 factor for Heroku
-gem 'rails_12factor', group: :production
 
 # Use bootstrap to improving the look and feel
 gem 'bootstrap-sass'
@@ -60,6 +54,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+
+# Use postgres as the database in production
+group :production do
+  gem 'pg'
+  gem 'rails_12factor', group: :production
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
