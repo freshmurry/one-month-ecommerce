@@ -4,7 +4,7 @@
   <section id="content-details" class="row clearfix">
     <article id="details-article" class="col-sm-8">
       <h1 id="article-title"><%= @product.title %><span class="font-weight-light"><h3><%= @product.subtitle %></h3></span></h1>
-      <h3><small>By <a href="#" data-toggle="modal" data-target="#author-modal"><%= @product.author %></a></small></h3>
+      <h3><small>Chordz Provided By: <a href="#" data-toggle="modal" data-target="#author-modal"><%= @product.author %></a></small></h3>
 
       <%= @product.description.html_safe %>
     </article>
@@ -47,8 +47,8 @@
         <li class="list-group-item active clearfix">DETAILS</li>
         <li class="list-group-item"><%= @product.details %></li>
         <li class="list-group-item clearfix">
-          <span class="pull-left content-qualifier">Length</span>
-          <span class="pull-right"><%= @product.length %></span>
+          <span class="pull-left content-qualifier">Price:</span>
+          <span class="pull-right"><%= @product.price %></span>
         </li>
       </ul>
     </aside>
