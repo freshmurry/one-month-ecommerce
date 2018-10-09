@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 #Require a specific ruby version 
-ruby '2.3'
+ruby '2.3.7'
 
 gem 'rails', '4.2.6'
 gem 'yarn'
