@@ -59,7 +59,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use postgres as the database in production
 group :production do
-  gem 'pg'
+  gem 'pg', '~> 0.20'
   gem 'rails_12factor', group: :production
 end
 

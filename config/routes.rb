@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   devise_for :admin_users, ActiveAdmin::Devise.config
   ActiveAdmin.routes(self)
   
-    root :to => 'products#index'
+    root 'products#index'
 
   # Route for showing products		
   resources :products, only: [:index, :show]
