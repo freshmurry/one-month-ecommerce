@@ -267,7 +267,7 @@ DEPENDENCIES
   yarn
 
 RUBY VERSION
-   ruby 2.2.2p95
+   ruby 2.3.0
 
 BUNDLED WITH
    1.12.5
