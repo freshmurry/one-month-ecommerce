@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 #Require a specific ruby version 
-ruby '~> 2.3.0'
+ruby '2.3'
 
 gem 'rails', '4.2.6'
 gem 'yarn'
@@ -29,8 +29,8 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
-  gem 'rails_12factor'
+	gem 'pg', '~> 0.20'
+	gem 'rails_12factor'
 end
 
 group :sdoc do 
